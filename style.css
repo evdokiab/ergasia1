@@ -1,0 +1,37 @@
+#menu {
+  background-color: #045367;
+  float:right;
+  margin-top: 0px;
+  display:block;
+}
+#menu a {
+  color: #ffffff;
+  font-family: 'Roboto Condensed',sans-serif;
+  text-decoration: none;
+}
+#menu li {
+  padding: 20px;
+  font-size: 18px;
+  display: inline-block;
+  border-right: 2px #6ca0a3 solid;
+}
+#menu li:hover {
+  background-color: #6ca0a3 ;
+}
+h4 {
+  border:1px solid #6ca0a3;
+  padding: 2px;
+  margin: 2px;
+  width: 120px;
+  background-color: #045367;
+  color: #ffffff;
+}
+#myform {
+  border-style: solid;
+  border-color: #045367;
+  border-width: 2px;
+  width: 180px;
+  padding: 5px;
+  height: 230px;
+  background-color:#d5e7e8;
+}
