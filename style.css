@@ -35,3 +35,9 @@ h4 {
   height: 230px;
   background-color:#d5e7e8;
 }
+#boxes p {
+  border-style: solid;
+  border-color: #045367;
+  background-color:#d5e7e8;
+  padding: 7px;
+}
