@@ -7,16 +7,30 @@
   <meta name="keywords" content="Ρόδος,παλιά πόλη Ρόδου">
   <meta htt-equiv="refresh" content="35">
   <link  rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <title>Τουριστικός οδηγός Ρόδου</title>
-</head>
+  <style>
+    h3 {
+      text-decoration: underline;
+      color: #045367;
+    }
+    div {
+      margin-left: 300px;
+    }
+</style>
 <body>
   <header>
+    <img  style="width: 150px; height: 60px;" src="http://mediacofss.com/wp-content/uploads/2012/05/LOGO-RODOS_NEW1.jpg" alt="logo">
     <!-- satrt menu -->
     <ul  id="menu">
       <li><a href="index1a.html">Αρχική</a></li>
       <li><a href="index2i.html">Ιστορία</a></li>
-      <li><a href="index2a.html">Αξιωθέατα</a></li>
-      <li><a href="index2m.html">Μουσεία</a></li>
+      <li class="sightseeings"><a href="javascript:void(0)">Αξιοθέατα</a>
+        <ul>
+          <li><a href="index2m.html">Μουσεία</a></li>
+        </ul>
+      </li>
       <li><a href="index2j.php">Ξενοδοχεία</a></li>
       <li><a href="index2p.html">Πολιτισμός</a></li>
       <li><a href="index2e.html">Εστιατόρια</a></li>
@@ -25,11 +39,89 @@
     </ul>
     <!-- menu end -->
   </header>
-  <content>
-    <ul>
-      <il><a href=""</il>
-    </ul>
-  </content>
+  <div>
+    <h2 style="color: #72acaf;">Συγκοινωνίες</h2>
+    <h3>Περιήγηση πόλεως Ρόδου με το Τρενάκι</h3>
+    <img style="width: 250px;"src="http://www.rhodes.gr/userfiles/f3d32225-c364-4819-aea4-00cf65c58887/rodat.JPG" alt="train">
+    <p>
+      Απολαύστε μια υπέροχη περιήγηση στα αξιοθέατα της πόλης της Ρόδου,<br /> με το τρενάκι. Μια περιήγηση γύρω από τα Τείχη της Μεσαιωνικής Πόλης,<br /> στο Ναό του Απόλλωνα, Αρχαίο Στάδιο και το κέντρο της Νέας Πόλης.
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Αναχώρηση:</th>
+          <th>Από την καφετέρια Ακταίον- Μαρίνα Μανδρακίου.</th>
+        </tr>
+        <tr>
+          <th>Δρομολόγια κατά την διάρκεια της καλοκαιρινής Περιόδου:</th>
+          <th>10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00</th>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <caption>Τιμή</caption>
+      <tbody>
+        <tr>
+          <th>Ενήλικες:</th>
+          <th>6 ευρώ</th>
+        </tr>
+        <tr>
+          <th>Παιδιά 0-3 χρονών:</th>
+          <th> Δωρεάν</th>
+        </tr>
+        <tr>
+          <th>Παιδιά 4-10 χρονών :</th>
+          <th> 3 ευρώ</th>
+        </tr>
+        <tr>
+          <th>Διάρκεια Περιήγησης:</th>
+          <th>45 λεπτά</th>
+        </tr>
+        <tr>
+          <th>Πληροφορίες:</th>
+          <th>22410 26300- 22410 24129</th>
+        </tr>
+        <tr>
+          <th>Δείτε τον χάρτη διαδρομής</th>
+          <th><a style="color:lime;" href="http://www.rhodes.gr/userfiles/f3d32225-c364-4819-aea4-00cf65c58887/tn.jpg">Χάρτης</a></th>
+        </tr>
+      </tbody>
+    </table>
+    <h2 style="color: #72acaf;">Πληροφορίες δρομολογίων Αστικής- Περιαστικής- Υπεραστικής περιοχής</h2>
+    <h3>Δημοτική Επιχείρηση Συγκοινωνιών «ΡΟΔΑ»</h3>
+    <p>
+      H Δ.Ε.Σ «ΡΟΔΑ» έχει τη συγκοινωνιακή εκμετάλλευση της Αστικής περιοχής<br /> (πόλεως Ρόδου) και των Περιαστικών περιοχών<br /> (Κοσκινού- Φαληράκι- Ιξιά- Φιλέρημος- Ιαλυσός- Κρεμαστή- Παστίδα- Μαριτσά- Παραδείσι)<br /> και της Υπεραστικής Περιοχής της Δυτικής Πλευράς της νήσου Ρόδου <br />(Δαματριά- Θεολόγος- Σορωνή- Διμυλιά- Ελεούσα- Αρχίπολη- Πλατάνια-<br /> Απόλλωνα- Φάνες-Καλαβάρδα- Αρχαία Κάμειρος- Μαντρικό- Κρητηνία- Σάλακος- Έμπωνα-  Άγιος Ισίδωρος- Σιάννα- Μονόλιθος).
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Τηλ:</th>
+          <th>22410 26300- 22410 24129</th>
+        </tr>
+      </tbody>
+    </table>
+    <img style="margin-top: 20px;"src="http://www.rhodes.gr/userfiles/f3d32225-c364-4819-aea4-00cf65c58887/kalitheafaliraki.jpg">
+    <h3>Κ.Τ.Ε.Λ. Ρόδου Α.Ε. </h3>
+    <p>
+      Η Κ.Τ.Ε.Λ. έχει τη συγκοινωνιακή εκμετάλλευση της Υπεραστικής Περιοχής<br /> της Ανατολικής πλευράς του νησιού (Φαληράκι-Καλυθιές- Ψίνθος- Αφάντου-<br /> Κολύμπια- Αρχάγγελος- Χαράκι- Μαλώνα- Μάσσαρι- Κάλαθος- Πυλώνα-<br /> Λίνδος- Πεύκοι- Λάρδος- Λάερμα- Κιοτάρι- Ασκληπείο- Γενννάδι- Βάτι- Προφύλια-<br /> Ίστριος- Απολλακιά- Αρνίθα- Λαχανιά- Μεσαναγρός- Κατταβιά-Πρασονήσι).<br /><br /><br />
+  <table>
+    <tbody>
+      <tr>
+        <th>Τηλ:</th>
+        <th>22410 27706- 22410 75134</th>
+      </tr>
+      <tr>
+        <th>Website:</th>
+        <th><a style="color:lime;" href="http://www.ktelrodou.gr/">www.ktelrodou.gr/</a></th>
+      </tr>
+      <tr>
+        <th>Δείτε στον χάρτη τους σταθμούς των λεωφορείων:</th>
+        <th><a style="color:lime;" href="http://www.rhodes.gr/userfiles/f3d32225-c364-4819-aea4-00cf65c58887/ctyofrhodesroda.JPG">Χάρτης</a></th>
+      </tr>
+    </tbody>
+  </table>
+</p>
+</div>
   <footer>
       <p>Created by Evdokia</p>
       <p>Contact information:<a href="mailto:eydokiampartzi@gmail.com">eydokiampartzi@gmail.com</a></p>

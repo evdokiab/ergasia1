@@ -7,6 +7,8 @@
   <meta name="keywords" content="Ρόδος,παλιά πόλη Ρόδου">
   <meta htt-equiv="refresh" content="35">
   <link  rel="stylesheet" type="text/css" href="style.css"/>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <title>Τουριστικός οδηγός Ρόδου</title>
   <style>
     h2 {
@@ -14,17 +16,20 @@
       color: #045367;
       height: 14px;
     }
-    
   </style>
 </head>
 <body>
   <header>
+    <img  style="width: 150px; height: 60px;" src="http://mediacofss.com/wp-content/uploads/2012/05/LOGO-RODOS_NEW1.jpg" alt="logo">
     <!-- satrt menu -->
     <ul  id="menu">
       <li><a href="index1a.html">Αρχική</a></li>
       <li><a href="index2i.html">Ιστορία</a></li>
-      <li><a href="index2a.html">Αξιωθέατα</a></li>
-      <li><a href="index2m.html">Μουσεία</a></li>
+      <li class="sightseeings"><a href="javascript:void(0)">Αξιοθέατα</a>
+        <ul>
+          <li><a href="index2m.html">Μουσεία</a></li>
+        </ul>
+      </li>
       <li><a href="index2j.php">Ξενοδοχεία</a></li>
       <li><a href="index2p.html">Πολιτισμός</a></li>
       <li><a href="index2e.html">Εστιατόρια</a></li>
@@ -34,7 +39,7 @@
     <!-- menu end -->
   </header>
   <br /> <br /><br /><br /><br />
-  <div id="boxes">
+  <div class="boxes">
     <h2 style="color: #72acaf; height: 14px;">Εισαγωγή</h2>
     <p>
       Το νησί της Ρόδου βρίσκεται στο σταυροδρόμι δυο μεγάλων θαλάσσιων διαδρομών της Μεσογείου,ανάμεσα στο Αιγαίο πέλαγος και των ακτών της Μέσης Ανατολής

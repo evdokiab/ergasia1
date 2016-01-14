@@ -18,26 +18,45 @@
 #menu li:hover {
   background-color: #6ca0a3 ;
 }
-h4 {
-  border:1px solid #6ca0a3;
-  padding: 2px;
-  margin: 2px;
-  width: 120px;
-  background-color: #045367;
-  color: #ffffff;
-}
+
 #myform {
   border-style: solid;
   border-color: #045367;
   border-width: 2px;
-  width: 180px;
-  padding: 5px;
-  height: 230px;
+  width: 160px;
+  height: 368px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
   background-color:#d5e7e8;
 }
-#boxes p {
+#side {
+  margin-top: -831px;
+  margin-left: -3px;
+}
+.boxes p {
   border-style: solid;
   border-color: #045367;
   background-color:#d5e7e8;
   padding: 7px;
+}
+.boxes {
+  margin-top: -90px;
+}
+.sightseeings ul {
+  display:none;
+  position: absolute;
+  z-index: 100;
+  left: 423px;
+  top:69px;
+  background-color: #b8dddc;
+  padding-left: 17px;
+}
+table, tr, th {
+  border: 1px solid;
+  border-color: #d5e7e8;
+  background-color: #045367;
+}
+th {
+  color: white;
 }
